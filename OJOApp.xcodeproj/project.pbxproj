@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		71D5DE98299229DC0056B830 /* OJOAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D5DE97299229DC0056B830 /* OJOAppApp.swift */; };
-		71D5DE9A299229DC0056B830 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D5DE99299229DC0056B830 /* ContentView.swift */; };
 		71D5DE9C299229DD0056B830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D5DE9B299229DD0056B830 /* Assets.xcassets */; };
 		71D5DE9F299229DD0056B830 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D5DE9E299229DD0056B830 /* Preview Assets.xcassets */; };
+		71D5DEA629922F6D0056B830 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D5DEA529922F6D0056B830 /* Onboarding.swift */; };
+		71D5DEAA29922FD30056B830 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D5DEA929922FD30056B830 /* MainPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		71D5DE94299229DC0056B830 /* OJOApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OJOApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D5DE97299229DC0056B830 /* OJOAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OJOAppApp.swift; sourceTree = "<group>"; };
-		71D5DE99299229DC0056B830 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71D5DE9B299229DD0056B830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71D5DE9E299229DD0056B830 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71D5DEA529922F6D0056B830 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		71D5DEA929922FD30056B830 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,12 @@
 		71D5DE96299229DC0056B830 /* OJOApp */ = {
 			isa = PBXGroup;
 			children = (
+				71D5DEAD299233B70056B830 /* ViewModels */,
+				71D5DEAC299233AC0056B830 /* Views */,
+				71D5DEAB2992339F0056B830 /* Models */,
 				71D5DE97299229DC0056B830 /* OJOAppApp.swift */,
-				71D5DE99299229DC0056B830 /* ContentView.swift */,
+				71D5DEA529922F6D0056B830 /* Onboarding.swift */,
+				71D5DEA929922FD30056B830 /* MainPage.swift */,
 				71D5DE9B299229DD0056B830 /* Assets.xcassets */,
 				71D5DE9D299229DD0056B830 /* Preview Content */,
 			);
@@ -65,6 +71,27 @@
 				71D5DE9E299229DD0056B830 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71D5DEAB2992339F0056B830 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		71D5DEAC299233AC0056B830 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		71D5DEAD299233B70056B830 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D5DE9A299229DC0056B830 /* ContentView.swift in Sources */,
+				71D5DEA629922F6D0056B830 /* Onboarding.swift in Sources */,
 				71D5DE98299229DC0056B830 /* OJOAppApp.swift in Sources */,
+				71D5DEAA29922FD30056B830 /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
