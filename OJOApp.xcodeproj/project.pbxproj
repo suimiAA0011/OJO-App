@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5337BF612994DE8A002F7634 /* OnboardingDat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337BF602994DE8A002F7634 /* OnboardingDat.swift */; };
 		5337BF632994DEB2002F7634 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337BF622994DEB2002F7634 /* OnboardingView.swift */; };
+		539B89E529A2708200D1E5D2 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539B89E429A2708200D1E5D2 /* Sound.swift */; };
+		539B89E729A270BD00D1E5D2 /* OJO Arabic 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 539B89E629A270BD00D1E5D2 /* OJO Arabic 3.wav */; };
 		71D5DE98299229DC0056B830 /* OJOAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D5DE97299229DC0056B830 /* OJOAppApp.swift */; };
 		71D5DE9C299229DD0056B830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D5DE9B299229DD0056B830 /* Assets.xcassets */; };
 		71D5DE9F299229DD0056B830 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D5DE9E299229DD0056B830 /* Preview Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		5337BF602994DE8A002F7634 /* OnboardingDat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDat.swift; sourceTree = "<group>"; };
 		5337BF622994DEB2002F7634 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		539B89E429A2708200D1E5D2 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		539B89E629A270BD00D1E5D2 /* OJO Arabic 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "OJO Arabic 3.wav"; sourceTree = "<group>"; };
 		71D5DE94299229DC0056B830 /* OJOApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OJOApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D5DE97299229DC0056B830 /* OJOAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OJOAppApp.swift; sourceTree = "<group>"; };
 		71D5DE9B299229DD0056B830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				5337BF622994DEB2002F7634 /* OnboardingView.swift */,
 				5337BF602994DE8A002F7634 /* OnboardingDat.swift */,
 				71D5DEA929922FD30056B830 /* MainPage.swift */,
+				539B89E429A2708200D1E5D2 /* Sound.swift */,
+				539B89E629A270BD00D1E5D2 /* OJO Arabic 3.wav */,
 				71D5DE9B299229DD0056B830 /* Assets.xcassets */,
 				71D5DE9D299229DD0056B830 /* Preview Content */,
 			);
@@ -159,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71D5DE9F299229DD0056B830 /* Preview Assets.xcassets in Resources */,
+				539B89E729A270BD00D1E5D2 /* OJO Arabic 3.wav in Resources */,
 				71D5DE9C299229DD0056B830 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71D5DEA629922F6D0056B830 /* Onboarding.swift in Sources */,
+				539B89E529A2708200D1E5D2 /* Sound.swift in Sources */,
 				71D5DE98299229DC0056B830 /* OJOAppApp.swift in Sources */,
 				5337BF612994DE8A002F7634 /* OnboardingDat.swift in Sources */,
 				5337BF632994DEB2002F7634 /* OnboardingView.swift in Sources */,
