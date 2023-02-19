@@ -61,9 +61,6 @@
 		71D5DE96299229DC0056B830 /* OJOApp */ = {
 			isa = PBXGroup;
 			children = (
-				71D5DEAD299233B70056B830 /* ViewModels */,
-				71D5DEAC299233AC0056B830 /* Views */,
-				71D5DEAB2992339F0056B830 /* Models */,
 				71D5DE97299229DC0056B830 /* OJOAppApp.swift */,
 				71D5DEA529922F6D0056B830 /* Onboarding.swift */,
 				5337BF622994DEB2002F7634 /* OnboardingView.swift */,
@@ -83,27 +80,6 @@
 				71D5DE9E299229DD0056B830 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		71D5DEAB2992339F0056B830 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		71D5DEAC299233AC0056B830 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		71D5DEAD299233B70056B830 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
