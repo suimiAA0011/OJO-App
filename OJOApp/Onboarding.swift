@@ -39,8 +39,9 @@ struct Onboarding: View {
                         MainPage(title: txt)
                             .navigationBarBackButtonHidden()
                     }label: {
-                        Text("Get Started")
-                            .font(.headline)
+                        Text("ابدأ")
+                            .fontWeight(.bold)
+//                            .font(.headline)
                             .foregroundColor(.white)
                             .padding(.horizontal, 70)
                             .padding(.vertical, 16)

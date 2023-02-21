@@ -39,32 +39,7 @@ struct MainPage: View {
                                     
                                 )
                         }
-//                        VStack{
-////                            Image("circular")
-//                            Image("heart_top")
-//                                .resizable()
-//
-//                                .frame(width:50 , height: 50)
-//                                .offset(x: -50)
-//                            // Rotation Mode: Do not rotate on path
-//                                .rotationEffect(.degrees(revolving ? -360 : 360))
-////                                .offset(x: -300, y: -20)
-//
-//                            Image("heart_bottom")
-//                                .resizable()
-//                                .frame(width:50 , height: 50)
-//                                .offset(x: -100, y: 20)
-//                            // Rotation Mode: Do not rotate
-//                                .rotationEffect(.degrees(revolving ? -360 : 360))
-////                                .offset(x: -100, y: 20)
-//                        } // Circular
-//                        .rotationEffect(.degrees(revolving ? 360 : -360))
-//                        //.rotation3DEffect(.degrees(15), axis: (x: 3, y: 1, z: 0))
-//                        .animation(.easeInOut(duration: 5).repeatForever(autoreverses: false), value: revolving)
-//                        .offset(x: 12.5, y: -20)
-////                        .onAppear {
-////                            revolving.toggle()
-//
+
                         }.padding()
                         
                         ZStack {
@@ -111,8 +86,7 @@ struct MainPage: View {
                                             .resizable()
                                             .scaledToFit()
                                     )
-//                                    .onAppear {
-//                                        revolving.toggle()
+
                     }
                             
                             Button {

@@ -13,8 +13,8 @@ struct OnboardingData: Hashable, Identifiable {
     let secondaryText: String
 
     static let list: [OnboardingData] = [
-        OnboardingData(id: 0, objectImage: "onboarding-object-1", primaryText: "يشعر اوجو بالسعادة عند سماع الكلمات الجيدة ", secondaryText: ", ولكنه يحزن على سماع الكلمات المؤذية."),
-        OnboardingData(id: 1,  objectImage: "onboarding-object-2", primaryText: "قم بالضغط على الزر في الأعلى ", secondaryText: " للتنشيط وإيقاف الصوت."),
-        OnboardingData(id: 2, objectImage: "onboarding-object-3", primaryText: "اضغط على الزر مرة أخرى ", secondaryText: "لتغيير حالة اوجو العاطفية.")
+        OnboardingData(id: 0, objectImage: "onboarding-object-1", primaryText: "يشعر اوجو بالسعادة عند سماع الكلمات الجيدة ", secondaryText: "ولكنه يحزن عند سماع الكلمات المؤذية."),
+        OnboardingData(id: 1,  objectImage: "onboarding-object-2", primaryText: "قم بالضغط على الزر في الأعلى ", secondaryText: " لتنشيط وإيقاف الصوت."),
+        OnboardingData(id: 2, objectImage: "onboarding-object-3", primaryText: " اخبر اوجو أنك آسف لتعديل حالته", secondaryText:"المزاجية.")
     ]
 }
