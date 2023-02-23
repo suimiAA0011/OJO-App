@@ -11,6 +11,8 @@
 		5337BF632994DEB2002F7634 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337BF622994DEB2002F7634 /* OnboardingView.swift */; };
 		539B89E529A2708200D1E5D2 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539B89E429A2708200D1E5D2 /* Sound.swift */; };
 		539B89E729A270BD00D1E5D2 /* OJO Arabic 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 539B89E629A270BD00D1E5D2 /* OJO Arabic 3.wav */; };
+		717AD39E29A7B09800961A78 /* SpeechModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717AD39D29A7B09800961A78 /* SpeechModel.swift */; };
+		717AD3A029A7B0E200961A78 /* SpeechModelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717AD39F29A7B0E200961A78 /* SpeechModelExt.swift */; };
 		71D5DE98299229DC0056B830 /* OJOAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D5DE97299229DC0056B830 /* OJOAppApp.swift */; };
 		71D5DE9C299229DD0056B830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D5DE9B299229DD0056B830 /* Assets.xcassets */; };
 		71D5DE9F299229DD0056B830 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D5DE9E299229DD0056B830 /* Preview Assets.xcassets */; };
@@ -23,6 +25,8 @@
 		5337BF622994DEB2002F7634 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		539B89E429A2708200D1E5D2 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		539B89E629A270BD00D1E5D2 /* OJO Arabic 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "OJO Arabic 3.wav"; sourceTree = "<group>"; };
+		717AD39D29A7B09800961A78 /* SpeechModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechModel.swift; sourceTree = "<group>"; };
+		717AD39F29A7B0E200961A78 /* SpeechModelExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechModelExt.swift; sourceTree = "<group>"; };
 		71D5DE94299229DC0056B830 /* OJOApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OJOApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D5DE97299229DC0056B830 /* OJOAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OJOAppApp.swift; sourceTree = "<group>"; };
 		71D5DE9B299229DD0056B830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +46,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		717AD39A29A7AF5B00961A78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5337BF622994DEB2002F7634 /* OnboardingView.swift */,
+				71D5DEA529922F6D0056B830 /* Onboarding.swift */,
+				71D5DEA929922FD30056B830 /* MainPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		717AD39B29A7AF6B00961A78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5337BF602994DE8A002F7634 /* OnboardingDat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		717AD39C29A7AF7600961A78 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				717AD39D29A7B09800961A78 /* SpeechModel.swift */,
+				717AD39F29A7B0E200961A78 /* SpeechModelExt.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		717AD3A129A7B26600961A78 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				539B89E629A270BD00D1E5D2 /* OJO Arabic 3.wav */,
+				539B89E429A2708200D1E5D2 /* Sound.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		71D5DE8B299229DC0056B830 = {
 			isa = PBXGroup;
 			children = (
@@ -61,13 +101,11 @@
 		71D5DE96299229DC0056B830 /* OJOApp */ = {
 			isa = PBXGroup;
 			children = (
+				717AD3A129A7B26600961A78 /* Utility */,
+				717AD39C29A7AF7600961A78 /* ViewModel */,
+				717AD39B29A7AF6B00961A78 /* Models */,
+				717AD39A29A7AF5B00961A78 /* Views */,
 				71D5DE97299229DC0056B830 /* OJOAppApp.swift */,
-				71D5DEA529922F6D0056B830 /* Onboarding.swift */,
-				5337BF622994DEB2002F7634 /* OnboardingView.swift */,
-				5337BF602994DE8A002F7634 /* OnboardingDat.swift */,
-				71D5DEA929922FD30056B830 /* MainPage.swift */,
-				539B89E429A2708200D1E5D2 /* Sound.swift */,
-				539B89E629A270BD00D1E5D2 /* OJO Arabic 3.wav */,
 				71D5DE9B299229DD0056B830 /* Assets.xcassets */,
 				71D5DE9D299229DD0056B830 /* Preview Content */,
 			);
@@ -153,6 +191,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717AD39E29A7B09800961A78 /* SpeechModel.swift in Sources */,
+				717AD3A029A7B0E200961A78 /* SpeechModelExt.swift in Sources */,
 				71D5DEA629922F6D0056B830 /* Onboarding.swift in Sources */,
 				539B89E529A2708200D1E5D2 /* Sound.swift in Sources */,
 				71D5DE98299229DC0056B830 /* OJOAppApp.swift in Sources */,
